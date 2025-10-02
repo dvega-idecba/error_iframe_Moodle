@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+    <script>
+
+
+
+
+        function grisarTodo(){
+
+            {
+        
+            
+        }
+        }
+        
+        function PaseP0(){ 
+            grisarTodo();
+            valor=document.getElementById('P0').value;
+            switch (valor) {
+                                 case "1":
+                document.getElementById("P1").style.backgroundColor="white";
+                document.getElementById("P1").focus();
+                break;
+                                    case "2":
+                document.getElementById("P2").style.backgroundColor="white";
+                document.getElementById("P2").focus();
+                break;
+                                    case "3":
+                document.getElementById("P3").style.backgroundColor="white";
+                document.getElementById("P3").focus();
+                break;
+                                    case "4":
+                document.getElementById("P4").style.backgroundColor="white";
+                document.getElementById("P4").focus();
+                break;
+
+                                    case "5":
+                document.getElementById("P5").style.backgroundColor="white";
+                document.getElementById("P5").focus();
+                break;
+
+                                    case "6":
+                document.getElementById("P6").style.backgroundColor="white";
+                document.getElementById("P6").focus();
+                document.getElementById("P6especificar").style.backgroundColor="white";
+                              
+                break;
+
+                                    case "7":
+                document.getElementById("P7").style.backgroundColor="white";
+                document.getElementById("P7").focus();
+                break;
+
+                                    case "8":
+                document.getElementById("P8").style.backgroundColor="white";
+                document.getElementById("P8").focus();
+                break;
+
+                                    case "9":
+                document.getElementById("P9").style.backgroundColor="white";
+                document.getElementById("P9").focus();
+                break;
+
+           }
+            }
+
+function PasekeydownP0() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP0();} });}
+function PasekeydownP1() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP1();} });}
+function PasekeydownP2() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP2();} });}
+function PasekeydownP3() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP3();} });}
+function PasekeydownP4() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP4();} });}
+function PasekeydownP5() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP5();} });}
+function PasekeydownP6() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP6();} });}
+function PasekeydownP7() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP7();} });}
+function PasekeydownP8() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP8();} });}
+function PasekeydownP9() {document.addEventListener('keydown', function(event) {if (event.key === 'Enter') {
+                PaseP9();} });}
+
+    function PaseP1() { document.getElementById("final").scrollIntoView();}
+    function PaseP2() { document.getElementById("final").scrollIntoView();}
+    function PaseP3() { document.getElementById("final").scrollIntoView();}
+    function PaseP4() { document.getElementById("final").scrollIntoView();}
+    function PaseP5() { document.getElementById("final").scrollIntoView();}
+    function PaseP6() { document.getElementById("final").scrollIntoView();}
+    function PaseP7() { document.getElementById("final").scrollIntoView();}
+    function PaseP8() { document.getElementById("final").scrollIntoView();}
+    function PaseP9() { document.getElementById("final").scrollIntoView();}
+           
+          
+
+        
+
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { width:70%; }
+        .boton{background-color: transparent; border-color:transparent;
+        font-size: large;
+    width: 70%; text-align: left;}
+          
+                </style>
+</head>
+<body >
+
+  
+<div class="contenedor-total" style="border: 2px solid grey;">
+
+<div class="Encabezado" style="flex-direction: row; border-bottom: 2px solid grey;font-size: large;">
+<p>RAZONES DE NO ENTREVISTA</p>
+</div>
+<div id="contenedor-razon-general" style="display:flex; flex-direction:row; justify-content:flex-start;  border-bottom: 2px solid grey;">
+
+<div class="razon-general" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;"> RAZONES POR LA CUÁL NO SE<BR> REALIZÓ LA ENTREVISTA</div> 
+
+<div class="Input-Númeral-pregunta" style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P0" type="text" value="" onkeydown="PasekeydownP0()" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta" style="display:flex; flex-direction: column; align-self: center; justify-self: center; font-size:large;">
+<div><button class="boton"; onclick="document.getElementById('P0').value = 1;PaseP0()">1 Deshabitada</button> &rarr; Razon_1</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 2;PaseP0()">2 Demolida</button> &rarr; Razon_2</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 3;PaseP0()">3 Fin de semana</button> &rarr; Razon_3</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 4;PaseP0()">4 Construcción</button> &rarr; Razon_4</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 5;PaseP0()">5 Vivienda usada como establecimiento</button> &rarr; Razon_5</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 6;PaseP0()">6 Variaciones en el listado </button> &rarr; Razon_6</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 7;PaseP0()">7 Ausencia</button> &rarr; Razon_7</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 8;PaseP0()">8 Rechazo</button> &rarr; Razon_8</div>
+<div><br><button class="boton"; onclick="document.getElementById('P0').value = 9;PaseP0()">9 Otras causas</button> &rarr; Razon_9</div>
+</div> 
+
+</div>
+
+<div id="contenedor-razon1" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="Pregunta2" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 1</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P1" type="text" value="" onkeydown="PasekeydownP1()" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta2" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P1').value = 1;PaseP1()">1 Venta o Alquiler</button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P1').value = 2;PaseP1()">2 Sucesión o Remate </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P1').value = 3;PaseP1()">3 Construcción Reciente</button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P1').value = 4;PaseP1()">4 Sin causa conocida</button> </div>
+</div> 
+</div>
+
+<div id="contenedor-razon2" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon2" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 2</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P2" onkeydown="PasekeydownP2()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta2" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P2').value = 1;PaseP2()">1 Fue demolida</button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P2').value = 2;PaseP2()">2 En demolición </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P2').value = 3;PaseP2()">3 Levantada</button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P2').value = 4;PaseP2()">4 Tapiada</button> </div>
+</div> 
+</div>
+
+<div id="contenedor-razon3" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon3" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 3 Viven en otra vivienda<br> la mayor parte...</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P3"onkeydown="PasekeydownP3()"type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta2" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P3').value = 1;PaseP3()">1 de la semana</button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P3').value = 2;PaseP3()">2 del mes </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P3').value = 3;PaseP3()">3 del año </button> </div>
+
+</div> 
+
+
+
+</div>
+
+<div id="contenedor-razon4" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon4" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 4</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P4" onkeydown="PasekeydownP4()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta4" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P4').value = 1;PaseP4()">1 Se está construyendo </button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P4').value = 2;PaseP4()">2 Construcción Paralizada </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P4').value = 3;PaseP4()">3 Refacción </button> </div>
+
+</div> 
+
+
+
+</div>
+ 
+<div id="contenedor-razon5" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon5" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 5</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div > <input id="P5"onkeydown="PasekeydownP5()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta4" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div><button class="boton"; onclick="document.getElementById('P5').value = 1;PaseP5()">1 Conserva comodidad como vivienda </button>  </div>
+
+
+</div> 
+
+
+
+</div>
+<div id="contenedor-razon6" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon4" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 6</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div> <input id="P6"onkeydown="PasekeydownP6()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta6" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P6').value = 1;PaseP6()">1 No existe lugar físico </button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P6').value = 2;PaseP6()">2 No es vivienda </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P6').value = 3;PaseP6()">3 Existen otras viviendas </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P6').value = 4;PaseP6()">4 Otro (especificar) </button>  <input id="P6especificar"> </div>
+</div> 
+
+
+
+</div>
+
+<div id="contenedor-razon7" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon7" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 7</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div> <input id="P7"onkeydown="PasekeydownP7()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta6" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P7').value = 1;PaseP7()">1 No se pudo contactar en 3 <br> visitas <i>(presenciales o  <br> telefónicas)</i> </button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P7').value = 2;PaseP7()">2 Por causas circunstanciales </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P7').value = 3;PaseP7()">3 Viaje </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P7').value = 4;PaseP7()">4 Vacaciones </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P7').value = 5;PaseP7()">5 Problemas con el dispositivo<br> móvil <i>(Robo, falla del servidor o del dispositivo, etc)</i> </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P7').value = 6;PaseP7()">6 Problemas con el teléfono <br> <i>(No corresponde, interferencia constante, dificultades en la red,<br> etc.)</i> </button>  </div>
+</div> 
+
+
+
+</div>
+
+
+<div id="contenedor-razon8" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon8" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 8</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div> <input id="P8" onkeydown="PasekeydownP8()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta8" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P8').value = 1;PaseP8()">1 Negativa rotunda </button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P8').value = 2;PaseP8()">2 Rechazo por portero eléctrico <br>o teléfono</button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P8').value = 3;PaseP8()">3 Se acordaron entrevistas que <br> no se concretaron </button> </div>
+
+</div> 
+
+
+
+</div>
+
+<div id="contenedor-razon9" style="display:flex; flex-direction:row; justify-content:flex-start; border-bottom: 2px solid grey;">
+
+<div class="razon9" style="align-self:flex-start; justify-self:left; width:40%; font-size:large;">  razón 9</div> 
+
+<div style="flex-direction: column; align-self:flex-start; width:5% "> 
+<div> <input id="P9"onkeydown="PasekeydownP9()" type="text" value="" size=1px/></div>
+
+</div> 
+
+<div class="Respuesta6" style="display:flex; flex-direction: column; align-self: center; width: 50%; ;font-size:large;">
+<div>    <button class="boton"; onclick="document.getElementById('P9').value = 2;PaseP9()">2 Duelo, alcoholismo, <br>discapacidad, idioma <br> extranjero </button>  </div>
+<div><br><button class="boton"; onclick="document.getElementById('P9').value = 3;PaseP9()">3 Problemas de seguridad </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P9').value = 4;PaseP9()">4 Inaccesible <i> (Problemas <br> climáticos u otros)</i> </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P9').value = 7;PaseP9()">7 No salio a campo </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P9').value = 8;PaseP9()">8 (Reservado)  </button> </div>
+<div><br><button class="boton"; onclick="document.getElementById('P9').value = 9;PaseP9()">9 Situaciones especiales <br><i>(Exclusión por rango de edad y/o sexo, emergencia y/o seguridad sanitaria, riesgo civil, etc.)</i>  </button>  </div>
+</div> 
+
+
+
+</div>
+<div id="final">      </div>
+
+</body>
+</html>
